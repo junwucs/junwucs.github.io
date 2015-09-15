@@ -1,0 +1,12 @@
+---
+title: Jewe's AI
+layout: default.html
+---
+
+{{ page.title }}
+
+{% for post in site.posts %}
+
+{{ post.date|date_to_string }} <a href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
+
+{% endfor %}
