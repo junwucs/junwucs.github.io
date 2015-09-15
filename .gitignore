@@ -1,0 +1,11 @@
+#filter files
+*.iml
+*.class
+pom.xml
+run.sh
+log*
+
+#filter directories
+.idea/
+target/*
+*/target/*
